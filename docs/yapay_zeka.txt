@@ -1,0 +1,5 @@
+RAG, bir dil modelinin cevap üretmeden önce güvenilir belgelerden bilgi getirmesini sağlar. Bu yaklaşım güncel veya kuruma özel bilgilerin modele bağlam olarak verilmesine yardımcı olur. Kaynak gösterimi, kullanıcının cevabı doğrulamasını kolaylaştırır.
+
+Bir RAG sistemi genellikle belge yükleme, metin parçalama, embedding üretme, vektör arama ve cevap üretme adımlarından oluşur. Parça boyutu ve örtüşme miktarı erişim kalitesini doğrudan etkileyebilir.
+
+Halüsinasyonu azaltmak için model yalnızca getirilen kaynaklara dayanacak şekilde yönlendirilmeli, yeterli kanıt yoksa bunu açıkça söylemeli ve her önemli iddia için kaynak göstermelidir. Erişim başarısı ile üretilen cevabın doğruluğu ayrı ayrı ölçülmelidir.
